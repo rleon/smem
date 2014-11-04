@@ -23,16 +23,15 @@ smem has a few requirements:
 * the matplotlib library for chart generation (optional, auto-detected) 
 
 ###Using smem###
-
-Show basic process information 	smem
-Show library-oriented view 	smem -m
-Show user-oriented view 	smem -u
-Show system view 	smem -R 4G -K /path/to/vmlinux -w
-Show totals and percentages 	smem -t -p
-Show different columns 	smem -c "name user pss"
-Sort by reverse RSS 	smem -s rss -r
-Show processes filtered by mapping 	smem -M libxml
-Show mappings filtered by process 	smem -m -P [e]volution
-Read data from capture tarball 	smem --source capture.tar.gz
-Show a bar chart labeled by pid 	smem --bar pid -c "pss uss"
-Show a pie chart of RSS labeled by name 	smem --pie name -s rss
+* Show basic process information 	smem
+* Show library-oriented view 	smem -m
+* Show user-oriented view 	smem -u
+* Show system view 	smem -R 4G -K /path/to/vmlinux -w
+* Show totals and percentages 	smem -t -p
+* Show different columns 	smem -c "name user pss"
+* Sort by reverse RSS 	smem -s rss -r
+* Show processes filtered by mapping 	smem -M libxml
+* Show mappings filtered by process 	smem -m -P [e]volution
+* Read data from capture tarball 	smem --source capture.tar.gz
+* Show a bar chart labeled by pid 	smem --bar pid -c "pss uss"
+* Show a pie chart of RSS labeled by name 	smem --pie name -s rss
